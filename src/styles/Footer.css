@@ -1,0 +1,9 @@
+/* Add your existing footer CSS styles here */
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+  }
+  

@@ -1,0 +1,31 @@
+/* Add your existing header CSS styles here */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0e0e0e;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .header a:hover {
+    color: #ffcc00;
+  }
+
+  
+  

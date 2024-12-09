@@ -1,0 +1,111 @@
+/* Main container styles */
+.middle-sec {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+.middle-sec img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+/* PS5 container */
+.ps5-container {
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.ps5-container h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Slider container */
+.image-slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Slider row */
+.image-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Smooth sliding effect */
+}
+
+/* Individual image items */
+.image-item {
+  flex: 0 0 calc(95% / 5); /* Adjust the denominator to control images per row */
+  margin: 0 10px; /* Spacing between images */
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+/* Image styles */
+.image-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Image description */
+.image-item p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #555;
+  padding: 5px;
+  border-top: 1px solid #eee;
+}
+
+/* Slider button styles */
+#nextButton {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#nextButton:hover {
+  background-color: #0056b3;
+}
+
+/* Slider container */
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.image-item {
+  min-width: calc(100% / 3); /* Adjust to control images per row */
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 5px;
+}
